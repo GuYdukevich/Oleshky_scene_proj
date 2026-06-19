@@ -1,0 +1,518 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'ru' Physical Memory: 32490 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/asus/Oleshky_scene_proj
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52195
+Successfully changed project path to: C:/Users/asus/Oleshky_scene_proj
+C:/Users/asus/Oleshky_scene_proj
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22588] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2688931665 [EditorId] 2688931665 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NBMUS6M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22588] Host "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2688931665 [EditorId] 2688931665 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NBMUS6M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 1898.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/asus/Oleshky_scene_proj/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.16.1047
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.568806 seconds.
+- Loaded All Assemblies, in  6.988 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 275 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 7730ms
+	BeginReloadAssembly (5501ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (231ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (620ms)
+	LoadAllAssembliesAndSetupDomain (623ms)
+		LoadAssemblies (5500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (620ms)
+			TypeCache.Refresh (619ms)
+				TypeCache.ScanAssembly (605ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (683ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (529ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.011 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.557 seconds
+Domain Reload Profiling: 6567ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (5809ms)
+		LoadAssemblies (5558ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (398ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3541 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (60.4 KB). Loaded Objects now: 3999.
+Memory consumption went from 128.5 MB to 128.5 MB.
+Total: 3.601800 ms (FindLiveObjects: 0.407500 ms CreateObjectMapping: 0.121400 ms MarkObjects: 2.929200 ms  DeleteObjects: 0.140900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57127.440566 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/TreeStump.prefab
+  artifactKey: Guid(4e0b065858820f847babd07d0b5ad7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/TreeStump.prefab using Guid(4e0b065858820f847babd07d0b5ad7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89404f876cd6373a84abe0a09effcd30') in 0.091825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/flower pedals.mat
+  artifactKey: Guid(1a2f5128edcd60d4ba6dc8b7bf859bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/flower pedals.mat using Guid(1a2f5128edcd60d4ba6dc8b7bf859bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76eb877135f56add89a02d6e20f09681') in 0.031697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/Terrain4.prefab
+  artifactKey: Guid(ee5330e6e8fee404296a59875e76ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/Terrain4.prefab using Guid(ee5330e6e8fee404296a59875e76ea5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84edac1bfa75990192f9f3957645ef3a') in 0.016955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/CarrotFarm.prefab
+  artifactKey: Guid(eb895d0397b02ff43a9a4b9142fc7ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/CarrotFarm.prefab using Guid(eb895d0397b02ff43a9a4b9142fc7ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283d617d4b27e7af7cf0e97e6444820d') in 0.017258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/Tree3.fbx
+  artifactKey: Guid(2b96daa4395f39b42a1afba1552216fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/Tree3.fbx using Guid(2b96daa4395f39b42a1afba1552216fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6db3bd3e7d1b3fab48fc83a9de1e82') in 0.050657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Nature & Village Pack
+  artifactKey: Guid(29c4f2e5c29cdf4429a768e7aa36f426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack using Guid(29c4f2e5c29cdf4429a768e7aa36f426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f21607410f4155c22b48ab77d505952') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/Fence.mat
+  artifactKey: Guid(5a697b22a566b274d9fc9ead5d089cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/Fence.mat using Guid(5a697b22a566b274d9fc9ead5d089cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae593edbcd30de71fd5f36afae7264a') in 0.016675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/BuildingWalls.mat
+  artifactKey: Guid(9769c5a560242c04f80065c084dbbfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/BuildingWalls.mat using Guid(9769c5a560242c04f80065c084dbbfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9dfe82bc128d66b103ea36d22540b7') in 0.013746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/Bush.fbx
+  artifactKey: Guid(3d43d60bfb6b3cb41b8ee6ae6a519f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/Bush.fbx using Guid(3d43d60bfb6b3cb41b8ee6ae6a519f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf4ce9036a747609ba090c9433c33ef') in 0.033458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/House2.fbx
+  artifactKey: Guid(e20c0eac7b21fc04d8ca779969787012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/House2.fbx using Guid(e20c0eac7b21fc04d8ca779969787012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80183e9b26c5bcbcf068a7fbee31e59') in 0.081056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/Rocks.mat
+  artifactKey: Guid(090e8c49b44eccc48adac4e1f4a8e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/Rocks.mat using Guid(090e8c49b44eccc48adac4e1f4a8e81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93433d53558e9a3410003f5d1fa6c2bd') in 0.013728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/Tree1.fbx
+  artifactKey: Guid(4bef63f6f9e85fe448d6c02ee0c9c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/Tree1.fbx using Guid(4bef63f6f9e85fe448d6c02ee0c9c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e8e232e0928b9cdc111f36aea98823') in 0.042057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/Carrot.mat
+  artifactKey: Guid(89da40298c3f4fd46933b23e39c7d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/Carrot.mat using Guid(89da40298c3f4fd46933b23e39c7d0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8604dabb0a3d298cf3936bdac2982d') in 0.015051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/TreeWood.mat
+  artifactKey: Guid(ea9b07f4ceb9f2c438bbf5858330e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/TreeWood.mat using Guid(ea9b07f4ceb9f2c438bbf5858330e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df22081edf03298c177fadbfdf115dcb') in 0.013122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/Ground.mat
+  artifactKey: Guid(cc6160ba2affc9c4a9d757ec9c192956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/Ground.mat using Guid(cc6160ba2affc9c4a9d757ec9c192956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95075a1b6b411b159af9ffbcb8bbd451') in 0.013650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/Terrain2.fbx
+  artifactKey: Guid(c4ef56aea4bfc5245be5902a244f9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/Terrain2.fbx using Guid(c4ef56aea4bfc5245be5902a244f9e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923af8f341bb655632b11fdbd361eb00') in 0.034578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/Tree2.fbx
+  artifactKey: Guid(bfcbac49ea9674947a210e69a7084d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/Tree2.fbx using Guid(bfcbac49ea9674947a210e69a7084d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6310c71fc28c6c4e37a928c11d2b52') in 0.081612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/House1.prefab
+  artifactKey: Guid(aeae148372547c145be7c7e29bc7a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/House1.prefab using Guid(aeae148372547c145be7c7e29bc7a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b74c6c4d8bec6ae1efd15bc9a84275b') in 0.023313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/Tree5.fbx
+  artifactKey: Guid(a4fb1c13c6a48c746a1281511bdfc99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/Tree5.fbx using Guid(a4fb1c13c6a48c746a1281511bdfc99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a180853201439c06bbbf8e9410f2f4') in 0.037568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials
+  artifactKey: Guid(038fb33cc76c007428d448c120e345f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials using Guid(038fb33cc76c007428d448c120e345f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e07bc7de5164080af5287736e2fd99f') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/FallenTree.fbx
+  artifactKey: Guid(27eb9b9293de10a47bcbb1cbdf726d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/FallenTree.fbx using Guid(27eb9b9293de10a47bcbb1cbdf726d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e37c49498f2420818fc360db0a926b1') in 0.024591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/TreeStump.fbx
+  artifactKey: Guid(d4a77a36e28518841b3c931faff24a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/TreeStump.fbx using Guid(d4a77a36e28518841b3c931faff24a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96665b4c75228b8124b72cf489d06335') in 0.021728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/Tree Colour2.mat
+  artifactKey: Guid(646fd1fc6aa8a85428d3800d2d7fae2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/Tree Colour2.mat using Guid(646fd1fc6aa8a85428d3800d2d7fae2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271b8c5b810b1aef7916a070fcd9a944') in 0.015557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/House1.fbx
+  artifactKey: Guid(d454052e46cc5cd449ddb66f18c6c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/House1.fbx using Guid(d454052e46cc5cd449ddb66f18c6c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9090c81d192af8017f5403102863990') in 0.066571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/GrassPatchSmall.fbx
+  artifactKey: Guid(a5f3ebcdd0d835c40a9709e4a34d3706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/GrassPatchSmall.fbx using Guid(a5f3ebcdd0d835c40a9709e4a34d3706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197db1b0ec211f634699c0ee7e50ac83') in 0.021934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/Bush.prefab
+  artifactKey: Guid(159ff77c9e247d340b78071a1e4c2815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/Bush.prefab using Guid(159ff77c9e247d340b78071a1e4c2815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354dee9a2fbd4a8701ef6f29ad89e7fa') in 0.016146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/Tree4.prefab
+  artifactKey: Guid(e409369781974684095924fc5a1fce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/Tree4.prefab using Guid(e409369781974684095924fc5a1fce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33961af64fab6b9f42556ccff60fae2') in 0.017045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/House3.prefab
+  artifactKey: Guid(8fffe6581d8c61b438428d19f3ca3b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/House3.prefab using Guid(8fffe6581d8c61b438428d19f3ca3b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4f7b3198f370e2aa430f04a5d6d310') in 0.017063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/PreMade Materials/BuildingWood.mat
+  artifactKey: Guid(b050f9bf27df7a6478e3abd3070b59f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/PreMade Materials/BuildingWood.mat using Guid(b050f9bf27df7a6478e3abd3070b59f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c024a625d9b58f27990edeeca4bfaee0') in 0.013509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/Prefabs/Terrain2.prefab
+  artifactKey: Guid(08a2dce355534f14786a3b37fa3ee46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/Prefabs/Terrain2.prefab using Guid(08a2dce355534f14786a3b37fa3ee46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18a7041965fbf74f69c2babb228b3f9') in 0.014065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Lowpoly Nature & Village Pack/3D Models/Terrain1.fbx
+  artifactKey: Guid(9a3ab1b3e1afaa24e8b5126fe74ee125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lowpoly Nature & Village Pack/3D Models/Terrain1.fbx using Guid(9a3ab1b3e1afaa24e8b5126fe74ee125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b7d3cb63fd0715a254c4923085fc34') in 0.030995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.343 seconds
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.856 seconds
+Domain Reload Profiling: 1197ms
+	BeginReloadAssembly (122ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (856ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (392ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3532 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (34.6 KB). Loaded Objects now: 4046.
+Memory consumption went from 127.2 MB to 127.2 MB.
+Total: 3.219800 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.211800 ms MarkObjects: 2.662200 ms  DeleteObjects: 0.065300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 4046.
+Memory consumption went from 72.8 MB to 72.8 MB.
+Total: 2.909400 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.166400 ms MarkObjects: 2.442400 ms  DeleteObjects: 0.029200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
